@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="c1">
+
+      <h1>EJERCICIO 1 (Introduccion al DOM)</h1>
+
+      <p class="parrafo">Este es el primer parrafo</p>
+      <p class="parrafo">Este es el segundo parrafo</p>
+      <p class="parrafo">Este es el tercer parrafo</p>
+
+      <button id="boton"> cambiar color texto </button>
+    </div>
+
+    <div>
+
+      <h1>EJERCICIO 2 (Introduccion al DOM)</h1>
+
+      <h3>Ingresa un texto</h3>
+      <input id="textoIngresado" type="text">
+      <button id="botonAlerta">Mostrar Alerta</button>
+
+    </div>
+
+    <div>
+
+      <h1>EJERCICIO 1 (Eventos en DOM)</h1>
+
+
+      <ul class="lista">
+
+          <li id="elem1"> Elemento 1</li>
+          <li id="elem2"> Elemento 2</li>
+          <li id="elem3"> Elemento 3</li>
+          <li id="elem4"> Elemento 4</li>
+          <li id="elem5"> Elemento 5</li>
+
+      </ul>
+    </div>
+
+    <div>
+
+      <h1>EJERCICIO 2 (Eventos en DOM)</h1>
+
+      <input id="campoDH" type="text">
+      <button id="habilitar"> habilitar campo</button>
+      <button id="deshabilitar"> deshabilitar campo</button>
+    </div>
+
+    <div>
+
+      <h1>EJERCICIO 1 (LocalStorage)</h1>
+
+      <form id="formCorreo">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+        <button type="enviar">Guardar correo</button>
+      </form>
+
+      <div id="mostrarCorreo"></div>
+
+      <button id="eliminarCorreo"">Eliminar correo</button>
+    </div>
+
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.pAzul{
+  color: blue;
+}
+
+.c1{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+}
+
+.lista{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+}
+
+button{
+  background-color: red;
+  width: 200px; 
+  padding: 10px 20px; 
+  margin: 10px; 
+  font-size: 16px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
