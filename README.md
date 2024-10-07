@@ -1,0 +1,1 @@
+Para ejecutar el archivo descargar el poryecto completo, abrir con VSCode y ejecutar en local con la funcion Go Live, una vez en la pagina tocar F12 para ver las respuestas por consola y seguir las instrucciones dadas tanto en la consola como en los prompts
